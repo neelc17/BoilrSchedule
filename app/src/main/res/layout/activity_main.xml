@@ -4,21 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.neelch.boilrschedule.MainActivity">
+    tools:context="com.neelch.boilrschedule.MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
 
     <EditText
         android:id="@+id/editText1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
+        android:hint="username"
         android:inputType="textPersonName"
-        android:text="Name"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toTopOf="@+id/button1"
         app:layout_constraintHorizontal_bias="0.502"
-        app:layout_constraintVertical_bias="0.202" />
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView1" />
 
     <!--EditText
         android:id="@+id/editText2"
@@ -35,22 +36,33 @@
         android:id="@+id/button1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="get schedule"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginBottom="387dp" />
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText1" />
 
     <TextView
         android:id="@+id/textView1"
-        android:layout_width="325dp"
-        android:layout_height="334dp"
-        android:text="TextView"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button1"
+        android:layout_width="149dp"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="Login"
+        app:layout_constraintBottom_toTopOf="@+id/editText1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView1" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="180dp"
+        android:layout_height="168dp"
+        app:srcCompat="@drawable/logo"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        tools:layout_editor_absoluteY="-7dp" />
+        app:layout_constraintBottom_toTopOf="@+id/textView1"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <!--<WebView
         android:id="@+id/web1"
