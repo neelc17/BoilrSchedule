@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "203982642819",
+    "firebase_url": "https://boilrschedule.firebaseio.com",
+    "project_id": "boilrschedule",
+    "storage_bucket": "boilrschedule.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:203982642819:android:1f91e35d332cc43f",
+        "android_client_info": {
+          "package_name": "com.neelch.boilrschedule"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "203982642819-7adms56u82avap483fb73vr10h4p8jto.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA36vISb02InGCyT0huNocpFa2tBF3dCfg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
